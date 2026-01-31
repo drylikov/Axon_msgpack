@@ -1,0 +1,20 @@
+
+{
+  "name": "axon-msgpack",
+  "version": "0.0.1",
+  "description": "Axon msgpack codec",
+  "keywords": ["axon", "msgpack", "codec"],
+  "author": "Denis Rylikov <denis.rylikov@protonmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drylikov/axon-msgpack.git"
+  },
+  "dependencies": {
+    "msgpack-js": "~0.1.5"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}
