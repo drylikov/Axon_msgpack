@@ -1,5 +1,5 @@
 
-# axon-msgpack
+# axon_msgpack
 
   Axon msgpack codec
 
@@ -19,7 +19,6 @@ var sock = axon.socket('pub');
 sock.format('msgpack');
 sock.send({ hello: new Buffer('world') });
 ```
-
 
 
 
