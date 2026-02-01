@@ -18,4 +18,3 @@ var sock = axon.socket('pub');
 sock.format('msgpack');
 sock.send({ hello: new Buffer('world') });
 ```
-
